@@ -6,8 +6,8 @@ h1
 .tacoYo
 {
   float: left;
-  width; 25%;
-  height: auto;
+  max-width: 25%;
+  max-height: 25%;
   display: block;
   background-color: powderblue;
 }
