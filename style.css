@@ -7,6 +7,7 @@ h1
 {
   float: left;
   width; 25%;
+  height: auto;
   display: block;
   background-color: powderblue;
 }
