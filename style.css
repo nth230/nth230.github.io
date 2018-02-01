@@ -1,5 +1,11 @@
 h1
 {
   font - family: 'Garamond';
-  float: left;
+  float: right;
+}
+.tacoYo
+{
+  float: right;
+  display: block;
+  width; 50%; 
 }
