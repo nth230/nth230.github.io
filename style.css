@@ -15,5 +15,8 @@ h1
 }
 .mexicanPattern
 {
-  display: block;
+  background-image: url("mexicanPattern.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
