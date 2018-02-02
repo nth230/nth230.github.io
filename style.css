@@ -1,8 +1,14 @@
-h1
+.boxed
 {
-  font - family: 'Garamond';
-  float: left;
+  border: 1px solid green ;
+  background: none;
 }
+
+/* h1 */
+/* { */
+  /* font - family: 'Garamond'; */
+  /* float: left; */
+/* } */
 .tacoYo
 {
   float: left;
@@ -13,8 +19,7 @@ h1
   margin: 10px;
   padding: 10px;
 }
-body
+ body
 {
-    height: 50%;
-    background-image: url("mexicanPattern.jpg");
+       background-image: url("mexicanPattern.jpg"); 
 }
