@@ -1,25 +1,259 @@
-.boxed
+ html, body
 {
-  border: 1px solid green ;
-  background: none;
+
+       /* background: rgb(165, 42, 42);
+       background: rgb(1, 0, 0,0);
+       height: 100%;
+       width: 100%; */
+
 }
 
-/* h1 */
-/* { */
-  /* font - family: 'Garamond'; */
-  /* float: left; */
-/* } */
-.tacoYo
-{
-  float: left;
-  width: 25%;
-  height: 25%;
+body{
+  background-image: CHIPS.jpg;
+  margin: 0;
+}
+.languages{
+  float: right;
+}
+p{
+  margin:0;
+}
+.top-container{
+  padding-left: 5%;
+  padding-top: .1%;
   display: block;
-  background-color: powderblue;
+  float:left;
+  text-rendering: optimizeLegibility;
+  margin-bottom: :0;
+  padding-bottom: 0;
+
+}
+
+.criticName{
+  font-family: 'Alegreya', serif;
+  text-align: right;
+  text-rendering: optimizeLegibility;
+  color: white;
+  font-size: 22px;
+  padding-bottom: 0;
+}
+
+table{
+  font-family: 'Abril Fatface', cursive;
+  position: fixed;
+  z-index:0;
+  border-collapse: collapse;
+  width: 100%;
+  background: rgba(69,20,0, 0.8);
+  margin:0;
+  padding-bottom: 0;
+
+
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  text-align:center;
+  color: white;
+  font-size: 50px;
+  margin:0;
+  margin-top: 5%;
+  margin-bottom: 0;
+  padding-bottom: 0%;
+
+}
+
+.logogogo{
+  float:left;
+  width: 12.5%;
+  height: 20%;
+  /* background: rgba(69,20,0, 0.75); */
+  padding-left: 1%;
+  padding-top: 3%;
+  padding-bottom: 0;
+
+}
+
+.nyuad30ff{
+  width: 12.5%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: .5%;
+  float:left;
+}
+.leftTable{
+  width:100%;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 0%;
+
+}
+.navigation{
+float: right;
+  /* float: right; */
+  padding-left: 0;
+  margin-left: 0;
+/* display: inline; */
+font-size: 20px;
+padding-top: 0;
+
+}
+.CHIPS{
+  opacity:0.75;
+  width:100%;
+  display: block;
+  position: fixed;
+  z-index: -1;
+}
+
+ul{
+    /* padding-left: 20%; */
+
+ list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+}
+
+li {
+  padding-right: 40px;
+  float:right;
+  display: inline;
+
+}
+
+li a {
+    /* display: inline; */
+    padding: 10px;
+  /* background: rgba(69,20,0, 0.75); */
+}
+.filmDescription{
+  padding-top: 10px;
+  font-style: italic;
+  font-size: 30px;
+}
+.disclaimer{
+  font-size: 18px;
+  margin-bottom: 3%;
+}
+.facebook{
+  padding-left: 5%;
+  width:3%;
+}
+.instagram{
+width:3%;
+}
+.pinterest{
+  width: 3%;
+}
+.twitter{
+  width:3%;
+}
+
+.scroll{
+  width: 20%;
+  margin-top: 0;
+display: inline-block;
+float:right;
+}
+
+
+
+
+
+/* {
+    background: black;
+    color: white;
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 2%;
+    width: auto;
+    height: 50%;
+} */
+
+
+
+
+
+/* iframe
+{
   margin: 10px;
   padding: 10px;
-}
- body
+} */
+
+.column.middle
 {
-       background-image: url("mexicanPattern.jpg"); 
+  /* display: block; */
+
+    text-align: center;
+    text-shadow: 2px 2px 8px #451400;
+    font-family: 'Alegreya', serif;
+    width: 100%;
+    margin-top: 180px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 50px;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+    padding-bottom: 0;
+    /* background-color: rgba(168, 22, 18,0.8); */
 }
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side
+{
+
+  display: block;
+  font-family: 'Alegreya', serif;
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgba(168, 22, 18,0.8);
+  color: white;
+  text-rendering: optimizeLegibility;
+  padding-top: 0;
+  float:right;
+}
+h2{
+  font-size: 40px;
+  margin-top:1%;
+  margin-bottom: 1%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+}
+
+video
+{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ display: inline-block;
+
+ margin-left: 25%;
+
+}
+/* Middle column */
+
+.footer{
+
+  display: block;
+  color: black;
+  font-size: 30px;
+  float:left;
+
+/* background-color: rgba(168, 22, 18,0.8) */
+}
+
+/* Clear floats after the columns */
+/* .row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+} */
