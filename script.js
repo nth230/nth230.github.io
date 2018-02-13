@@ -24,5 +24,14 @@ myBlock.style.hight = '0px'
 let myVideo = document.getElementById('myVideo')
 myVideo.style.display = 'block'
 
+myBlock.onclick = () => {
+  myBlock.style.height = '0px'
+
+  setTimeout( () => {
+    let myVideo = document.getElementById('myVideo')
+    myVideo.style.display = 'block'
+    setTimeout(myVideo.play(), 300)
+  }, 1000)
+
 setTimeout()
 }

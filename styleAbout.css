@@ -1,0 +1,302 @@
+
+html, body
+{
+
+      /* background: rgb(165, 42, 42);
+      background: rgb(1, 0, 0,0);
+      height: 100%;
+      width: 100%; */
+
+}
+
+body{
+background-image: chopped.jpg;
+ margin: 0;
+}
+.languages{
+ float: right;
+}
+.arabii{
+  font-family: 'Cairo', sans-serif;
+}
+p{
+ margin:0;
+}
+.top-container{
+ padding-left: 5%;
+ padding-top: .1%;
+ display: block;
+ float:left;
+ text-rendering: optimizeLegibility;
+ margin-bottom: :0;
+ padding-bottom: 0;
+
+}
+
+.criticName{
+ font-family: 'Alegreya', serif;
+ text-align: right;
+ text-rendering: optimizeLegibility;
+ color: white;
+ font-size: 22px;
+ padding-bottom: 0;
+}
+table{
+ font-family: 'Abril Fatface', cursive;
+ position: fixed;
+ z-index:0;
+ border-collapse: collapse;
+ width: 100%;
+ background: rgba(69,20,0, 0.8);
+ margin:0;
+ padding-bottom: 0;
+
+
+}
+
+h1{
+ font-family: 'Abril Fatface', cursive;
+ text-align:center;
+ color: white;
+ font-size: 50px;
+ margin:0;
+ margin-top: 5%;
+ margin-bottom: 0;
+ padding-bottom: 0%;
+
+}
+
+.logogogo{
+ float:left;
+ width: 12.5%;
+ height: 20%;
+ /* background: rgba(69,20,0, 0.75); */
+ padding-left: 1%;
+ padding-top: 3%;
+ padding-bottom: 0;
+
+}
+
+.nyuad30ff{
+ width: 12.5%;
+ padding-top: 1%;
+ padding-left: 1%;
+ padding-bottom: .5%;
+ float:left;
+}
+.leftTable{
+ width:100%;
+ float: left;
+ margin-bottom: 0;
+ padding-bottom: 0%;
+
+}
+.navigation{
+ font-family: 'Alegreya', serif;
+float: right;
+ /* float: right; */
+ padding-left: 0;
+ margin-left: 0;
+/* display: inline; */
+font-size: 20px;
+padding-top: 0;
+
+}
+.chopped{
+ opacity:0.75;
+ width:130%;
+ display: block;
+ position: fixed;
+ z-index: -1;
+}
+
+ul{
+   /* padding-left: 20%; */
+
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+ padding-right: 40px;
+ float:right;
+ display: inline;
+
+}
+
+li a {
+   /* display: inline; */
+   padding: 10px;
+ /* background: rgba(69,20,0, 0.75); */
+}
+.tacoTitle{
+ /* margin-left: ; */
+ font-family: 'Alegreya', serif;
+ font-size: 65px;
+ margin-left: 5%;
+}
+.actorProfiles{
+  display:inline-block;
+}
+.meme{
+  width:20%;
+}
+.neyva{
+  width:20%;
+}
+.croppedTaco{
+  width:20%;
+}
+.uno{
+  float:left;
+}
+.dos{
+  float:right;
+}
+.tres{
+  display: inline-block;
+}
+}
+.filmDescription{
+  text-align: center;
+ margin-left: 30%;
+ padding-top: 10px;
+ font-style: italic;
+ font-size: 30px;
+}
+.disclaimer{
+ font-size: 18px;
+ margin-bottom: 3%;
+}
+.facebook{
+ padding-left: 5%;
+ width:3%;
+ padding-bottom: 2%;
+}
+.instagram{
+ padding-bottom: 2%;
+width:3%;
+}
+.pinterest{
+ width: 3%;
+ padding-bottom: 2%;
+}
+.twitter{
+ width:3%;
+ padding-bottom: 2%;
+}
+
+.scroll{
+ width: 20%;
+ margin-top: 240px;
+display: inline-block;
+float:right;
+}
+
+a{
+  font-family: 'Alegreya', serif;
+  color: white;
+}
+
+
+/* {
+   background: black;
+   color: white;
+   font-family: 'Futura';
+   font-weight: bold;
+   font-size: 40px;
+   padding-left: 2%;
+   width: auto;
+   height: 50%;
+} */
+
+
+
+
+
+/* iframe
+{
+ margin: 10px;
+ padding: 10px;
+} */
+
+.column.middle
+{
+ /* display: block; */
+
+   text-align: center;
+   text-shadow: 2px 2px 8px #451400;
+   font-family: 'Alegreya', serif;
+   width: 100%;
+   margin-top: 250px;
+   margin-bottom: 0;
+   color: white;
+   font-size: 50px;
+   text-rendering: optimizeLegibility;
+   font-weight: bold;
+   padding-bottom: 0;
+   /* background-color: rgba(168, 22, 18,0.8); */
+}
+
+.column {
+   float: left;
+   padding: 10px;
+}
+
+/* Left and right column */
+.column.side
+{
+
+ display: block;
+ test-align: left;
+ font-family: 'Alegreya', serif;
+ width: 100%;
+ margin-top: 50px;
+ background-color: rgba(168, 22, 18,0.8);
+ color: white;
+ text-rendering: optimizeLegibility;
+ padding-top: 0;
+
+}
+h5{
+  font-size: 40px;
+  margin-top:2%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+h2{
+ font-size: 40px;
+ margin-top:1%;
+ margin-bottom: 1%;
+ padding-bottom: 2%;
+ padding-left: 3%;
+ margin-left: 20%;
+ margin-right: 20%;
+
+}
+
+video
+{
+margin: 0;
+padding: 0;
+border: 0;
+display: inline-block;
+
+margin-left: 25%;
+
+}
+
+
+
+
+
+/* Clear floats after the columns */
+/* .row:after
+{
+   content: "";
+   display: table;
+   clear: both;
+} */

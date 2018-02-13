@@ -13,7 +13,11 @@ body{
   margin: 0;
 }
 .languages{
+  
   float: right;
+}
+.arabii{
+  font-family: 'Cairo', sans-serif;
 }
 p{
   margin:0;
@@ -89,6 +93,7 @@ h1{
 
 }
 .navigation{
+  font-family: 'Alegreya', serif;
 float: right;
   /* float: right; */
   padding-left: 0;
@@ -128,7 +133,11 @@ li a {
     padding: 10px;
   /* background: rgba(69,20,0, 0.75); */
 }
+.tacoTitle{
+  /* margin-left: ; */
+}
 .filmDescription{
+  margin-left: 20%;
   padding-top: 10px;
   font-style: italic;
   font-size: 30px;
@@ -140,20 +149,24 @@ li a {
 .facebook{
   padding-left: 5%;
   width:3%;
+  padding-bottom: 2%;
 }
 .instagram{
+  padding-bottom: 2%;
 width:3%;
 }
 .pinterest{
   width: 3%;
+  padding-bottom: 2%;
 }
 .twitter{
   width:3%;
+  padding-bottom: 2%;
 }
 
 .scroll{
   width: 20%;
-  margin-top: 0;
+  margin-top: 300px;
 display: inline-block;
 float:right;
 }
@@ -191,7 +204,7 @@ float:right;
     text-shadow: 2px 2px 8px #451400;
     font-family: 'Alegreya', serif;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 200px;
     margin-bottom: 0;
     color: white;
     font-size: 50px;
@@ -204,6 +217,10 @@ float:right;
 .column {
     float: left;
     padding: 10px;
+}
+a {
+  font-family: 'Alegreya', serif;
+  color: white;
 }
 
 /* Left and right column */
@@ -218,7 +235,6 @@ float:right;
   color: white;
   text-rendering: optimizeLegibility;
   padding-top: 0;
-  float:right;
 }
 h2{
   font-size: 40px;
@@ -227,28 +243,21 @@ h2{
   padding-bottom: 2%;
   padding-left: 3%;
 }
-
+.videoPosition{
+  padding-left: 0;
+}
 video
 {
- margin: 0;
- padding: 0;
- border: 0;
+  width: 50%;
+
  display: inline-block;
 
- margin-left: 25%;
+ margin-left: 20%;
 
 }
 /* Middle column */
 
-.footer{
 
-  display: block;
-  color: black;
-  font-size: 30px;
-  float:left;
-
-/* background-color: rgba(168, 22, 18,0.8) */
-}
 
 /* Clear floats after the columns */
 /* .row:after
