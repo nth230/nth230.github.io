@@ -245,20 +245,14 @@ h2{
 }
 .videoPosition{
   padding-left: 0;
+}
+video
+{
   width: 50%;
 
  display: inline-block;
 
  margin-left: 20%;
- margin-top: 5%;
-}
-video
-{
-  /* width: 50%;
-
- display: inline-block;
-
- margin-left: 20%; */
 
 }
 /* Middle column */
