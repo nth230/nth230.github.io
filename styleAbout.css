@@ -139,7 +139,8 @@ li a {
  margin-left: 5%;
 }
 .actorProfiles{
-  display:inline-block;
+  display:block;
+  margin:0;
 }
 .meme{
   width:20%;
@@ -151,18 +152,79 @@ li a {
   width:20%;
 }
 .uno{
-  float:left;
+  /* float:left; */
+  margin-left:42%;
+  font-size: 30px;
+text-align: center;
+display: inline;
+font-family: 'Alegreya', serif;
+color:white;
+font-size: 50px;
+text-rendering: optimizeLegibility;
+font-weight: bold;
+padding-bottom: 0;
+}
+.unoDesc{
+  font-size: 30px;
+text-align: center;
+display: inline;
+font-family: 'Alegreya', serif;
+color:white;
+text-rendering: optimizeLegibility;
+font-weight: bold;
+padding-bottom: 2%;
+margin-left: 7%;
+/* float:left; */
 }
 .dos{
-  float:right;
+  padding-top: 3%;
+  margin-left:42%;
+  font-size: 30px;
+  text-align: center;
+  display: inline;
+  font-family: 'Alegreya', serif;
+  color:white;
+  font-size: 50px;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+.dosDesc{
+  font-size: 30px;
+text-align: center;
+display: inline;
+font-family: 'Alegreya', serif;
+color:white;
+text-rendering: optimizeLegibility;
+font-weight: bold;
+padding-bottom: 2%;
+margin-left: 7%;
 }
 .tres{
-  display: inline-block;
+  margin-left:42%;
+  font-size: 30px;
+text-align: center;
+display: inline;
+font-family: 'Alegreya', serif;
+color:white;
+font-size: 50px;
+text-rendering: optimizeLegibility;
+font-weight: bold;
+
 }
+.tresDesc{
+  font-size: 30px;
+text-align: center;
+display: inline;
+font-family: 'Alegreya', serif;
+color:white;
+text-rendering: optimizeLegibility;
+font-weight: bold;
+padding-bottom: 2%;
+margin-left: 7%;
 }
 .filmDescription{
   text-align: center;
- margin-left: 30%;
  padding-top: 10px;
  font-style: italic;
  font-size: 30px;
@@ -278,16 +340,7 @@ h2{
 
 }
 
-video
-{
-margin: 0;
-padding: 0;
-border: 0;
-display: inline-block;
 
-margin-left: 25%;
-
-}
 
 
 
