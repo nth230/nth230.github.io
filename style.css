@@ -1,10 +1,26 @@
+a{
+  text-decoration: none;
+}
+a:hover{
+  /* cursor: url(newMouse.png), auto ; */
+cursor:url(arrowg2.png),auto;
+}
+body{
+  cursor:url(arrowg.png),auto;
+}
 .first{
-  display: inline;
+  text-align: center;
   font-family: 'Permanent Marker', cursive;
+  font-size: 5em;
+  color: blue;
 }
 .second{
+  text-align: center;
   font-family: 'Permanent Marker', cursive;
+  font-size: 5em;
+
 }
 .third{
-  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;  font-size: 5em;
 }
