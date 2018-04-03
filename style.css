@@ -1,26 +1,44 @@
+html body{
+  background: black;
+  cursor:url(cubeB.png),auto;
+}
 a{
   text-decoration: none;
+  color:#605052;
 }
 a:hover{
-  /* cursor: url(newMouse.png), auto ; */
-cursor:url(arrowg2.png),auto;
-}
-body{
-  cursor:url(arrowg.png),auto;
+/* cursor:url(arrowg2.png),auto; */
 }
 .first{
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 5em;
-  color: blue;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
 }
 .second{
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 5em;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
 
 }
 .third{
   text-align: center;
-  font-family: 'Permanent Marker', cursive;  font-size: 5em;
+  /* font-family: 'Permanent Marker', cursive;  font-size: 5em; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
+}
+.fourth{
+  text-align: center;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
+
+}
+.fifth{
+  text-align: center;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
+
 }
