@@ -23,33 +23,72 @@ a:hover{
   display: inline-block;
   /* text-shadow: 2px 2px 0px white; //adds a cool outline on the text*/
 }
+.firstImage{
+
+  font-family: 'Overpass Mono', monospace;
+  font-size: 1em;
+  outline: 1px solid white;
+  padding-top:2%;
+  padding-bottom: 2%;
+  /* margin:0; */
+  padding-left: 2%;
+  padding-right: 2%;
+  display: none;
+
+}
 .second{
+  text-align: center;
+  display: inline-block;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
+  outline: 1px solid white;
+  padding-top:2%;
+  padding-bottom: 2%;
+  outline: 1px solid white;
+
+}
+.third{
+  text-align: center;
+  display: inline-block;
+  /* font-family: 'Permanent Marker', cursive;  font-size: 5em; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
+  outline: 1px solid white;
+  padding-top:2%;
+  padding-bottom: 2%;
+  /* margin:0; */
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
+}
+.fourth{
+  display: inline-block;
   text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
   outline: 1px solid white;
-  padding-top:1%;
-  padding-bottom: 1%;
-
-}
-.third{
-  text-align: center;
-  /* font-family: 'Permanent Marker', cursive;  font-size: 5em; */
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 7em;
-}
-.fourth{
-  text-align: center;
-  /* font-family: 'Permanent Marker', cursive; */
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 7em;
+  padding-top:2%;
+  padding-bottom: 2%;
+  /* margin:0; */
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
 
 }
 .fifth{
+  display: inline-block;
   text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
+  outline: 1px solid white;
+  padding-top:2%;
+  padding-bottom: 2%;
+  /* margin:0; */
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
 
 }
