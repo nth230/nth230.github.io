@@ -55,7 +55,7 @@ img {
   /* display: none; */
   /* color: white; */
   color:#605052;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .second{
@@ -87,7 +87,7 @@ img {
   /* color: white; */
   margin-top: 8%;
   color:#605052;
-  font-size: 1.3em;
+  font-size: 1.2em;
 
 }
 .third{
@@ -107,7 +107,7 @@ img {
 .thirdImage{
 text-align: center;
   font-family: 'Overpass Mono', monospace;
-  font-size: 1em;
+  /* font-size: 1em; */
   /* outline: 1px solid white; */
   padding-top:2%;
   padding-bottom: 2%;
@@ -115,8 +115,10 @@ text-align: center;
   padding-left: 2%;
   padding-right: 2%;
   /* display: none; */
-  color: white;
+  /* color: white; */
   margin-top: 6%;
+  color:#605052;
+  font-size: 1.2em;
 
 }
 .fourth{
@@ -136,7 +138,7 @@ text-align: center;
 .fourthImage{
 text-align: center;
   font-family: 'Overpass Mono', monospace;
-  font-size: 1em;
+  /* font-size: 1em; */
   /* outline: 1px solid white; */
   padding-top:2%;
   padding-bottom: 2%;
@@ -144,8 +146,10 @@ text-align: center;
   padding-left: 2%;
   padding-right: 2%;
   /* display: none; */
-  color: white;
+  /* color: white; */
   margin-top: 8%;
+  color:#605052;
+  font-size: 1.2em;
 
 }
 .fifth{
@@ -165,7 +169,7 @@ text-align: center;
 .fifthImage{
 text-align: center;
   font-family: 'Overpass Mono', monospace;
-  font-size: 1em;
+  /* font-size: 1em; */
   /* outline: 1px solid white; */
   padding-top:2%;
   padding-bottom: 2%;
@@ -173,7 +177,8 @@ text-align: center;
   padding-left: 2%;
   padding-right: 2%;
   /* display: none; */
-  color: white;
+  /* color: white; */
   margin-top: 8%;
-
+  color:#605052;
+  font-size: 1.2em;
 }
