@@ -12,17 +12,13 @@ function play(){
         var audio = document.getElementById("AaronDoesIt");
        if (currentlyPlaying) {
          audio.pause()
+         var isPlaying = false;
        } else {
          audio.play();
        }
      };
 
-     audio.onplaying = function() {
-       currentlyPlaying = true;
-     };
-     audio.onpause = function() {
-       currentlyPlaying = false;
-     };
+
 
 
 
