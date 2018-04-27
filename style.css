@@ -8,6 +8,21 @@ a{
 }
 a:hover{
 /* cursor:url(arrowg2.png),auto; */
+/* color: #ddcfb0; */
+color: white;
+opacity: .65;
+}
+header{
+  text-align: center;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .5em;
+  color: #605052;
+}
+header:hover{
+  opacity: .65;
+  cursor:url(PaintCanComplete.png),auto;
 }
 p{
   color:   color:#605052;
@@ -27,6 +42,10 @@ img {
       -webkit-transform: scale(1.5);
         cursor:url(cube.png),auto;
     }
+  /* .BarCodeArtTop{
+    width: 1440px;
+    height: 200px;
+  } */
 .first{
   text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
