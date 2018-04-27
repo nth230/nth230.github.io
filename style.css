@@ -13,6 +13,7 @@ color: white;
 opacity: .65;
 }
 header{
+    opacity: .65;
   text-align: center;
   padding-bottom: 1em;
   padding-left: 1em;
@@ -21,7 +22,7 @@ header{
   color: #605052;
 }
 header:hover{
-  opacity: .65;
+  opacity: 1;
   cursor:url(PaintCanComplete.png),auto;
 }
 p{
@@ -42,10 +43,7 @@ img {
       -webkit-transform: scale(1.5);
         cursor:url(cube.png),auto;
     }
-  /* .BarCodeArtTop{
-    width: 1440px;
-    height: 200px;
-  } */
+
 .first{
   text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
