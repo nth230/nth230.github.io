@@ -23,7 +23,18 @@ header{
 }
 header:hover{
   opacity: 1;
-  cursor:url(PaintCanComplete.png),auto;
+  /* cursor:url(PaintCanComplete.png),auto; */
+}
+ul {
+  font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    /* float:left; */
+    text-align: center;
+    outline: 1px solid white;
+
 }
 p{
   color:   color:#605052;
@@ -43,18 +54,30 @@ img {
       -webkit-transform: scale(1.5);
         cursor:url(cube.png),auto;
     }
-
+.last{
+  text-align: center;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 7em;
+  /* outline: 1px solid white; */
+  /* padding-top:4%; */
+  /* padding-bottom: 6%; */
+  /* margin:0; */
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
+  display: block;
+}
 .first{
   text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
-  outline: 1px solid white;
-  padding-top:4%;
-  padding-bottom: 6%;
+  /* outline: 1px solid white; */
+  /* padding-top:4%; */
+  /* padding-bottom: 6%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   display: block;
 
   /* text-shadow: 2px 2px 0px white; //adds a cool outline on the text*/
@@ -63,12 +86,12 @@ img {
   text-align: center;
   font-family: 'Overpass Mono', monospace;
   /* font-size: 1em; */
-  outline: 1px solid white;
-  padding-top:4%;
-  padding-bottom: 4%;
+  /* outline: 1px solid white; */
+  /* padding-top:4%; */
+  /* padding-bottom: 4%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   /* display: none; */
   /* color: white; */
   color:#605052;
@@ -80,12 +103,12 @@ img {
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
-  outline: 1px solid white;
-  padding-top:10%;
-  padding-bottom: 10%;
+  /* outline: 1px solid white; */
+  /* padding-top:10%; */
+  /* padding-bottom: 10%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   display: block;
   /* text-shadow: 2px 2px 0px white; //adds a cool outline on the text*/
 }
@@ -94,15 +117,15 @@ img {
 
   font-family: 'Overpass Mono', monospace;
   /* font-size: 1em; */
-  outline: 1px solid white;
-  padding-top:2%;
-  padding-bottom: 2%;
+  /* outline: 1px solid white; */
+  /* padding-top:2%; */
+  /* padding-bottom: 2%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   /* display: none; */
   /* color: white; */
-  margin-top: 8%;
+  /* margin-top: 8%; */
   color:#605052;
   font-size: 1.2em;
 
@@ -112,12 +135,12 @@ img {
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
-  outline: 1px solid white;
-  padding-top:8%;
-  padding-bottom: 8%;
+  /* outline: 1px solid white; */
+  /* padding-top:8%; */
+  /* padding-bottom: 8%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   display: block;
   /* text-shadow: 2px 2px 0px white; //adds a cool outline on the text*/
 }
@@ -125,12 +148,12 @@ img {
 text-align: center;
   font-family: 'Overpass Mono', monospace;
   /* font-size: 1em; */
-  outline: 1px solid white;
-  padding-top:2%;
-  padding-bottom: 2%;
+  /* outline: 1px solid white; */
+  /* padding-top:2%; */
+  /* padding-bottom: 2%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   /* display: none; */
   /* color: white; */
   margin-top: 6%;
@@ -143,12 +166,12 @@ text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
-  outline: 1px solid white;
-  padding-top:8%;
-  padding-bottom: 8%;
+  /* outline: 1px solid white; */
+  /* padding-top:8%; */
+  /* padding-bottom: 8%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   display: block;
   /* text-shadow: 2px 2px 0px white; //adds a cool outline on the text*/
 }
@@ -156,12 +179,12 @@ text-align: center;
 text-align: center;
   font-family: 'Overpass Mono', monospace;
   /* font-size: 1em; */
-  outline: 1px solid white;
-  padding-top:2%;
-  padding-bottom: 2%;
+  /* outline: 1px solid white; */
+  /* padding-top:2%; */
+  /* padding-bottom: 2%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   /* display: none; */
   /* color: white; */
   margin-top: 8%;
@@ -174,12 +197,12 @@ text-align: center;
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 7em;
-  outline: 1px solid white;
-  padding-top:8%;
-  padding-bottom: 8%;
+  /* outline: 1px solid white; */
+  /* padding-top:8%; */
+  /* padding-bottom: 8%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   display: block;
   /* text-shadow: 2px 2px 0px white; //adds a cool outline on the text*/
 }
@@ -187,15 +210,15 @@ text-align: center;
 text-align: center;
   font-family: 'Overpass Mono', monospace;
   /* font-size: 1em; */
-  outline: 1px solid white;
-  padding-top:2%;
-  padding-bottom: 2%;
+  /*outline: 1px solid white; */
+  /* padding-top:2%; */
+  /* padding-bottom: 2%; */
   /* margin:0; */
-  padding-left: 2%;
-  padding-right: 2%;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
   /* display: none; */
   /* color: white; */
-  margin-top: 8%;
+  /* margin-top: 8%; */
   color:#605052;
   font-size: 1.2em;
 }
