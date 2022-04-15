@@ -2,6 +2,10 @@ html body{
   background: black;
   /*cursor:url(cubeB.png),auto;*/
 }
+canvas{
+  display:block;
+  padding-bottom: 0;
+}
 a{
   text-decoration: none;
   color:#605052;
@@ -12,7 +16,7 @@ opacity: .65;
 }
 header{
   text-align: center;
-  padding-bottom: 1em;
+  /*padding-bottom: 1em;*/
   padding-left: 1em;
   padding-right: 1em;
   padding-top: .5em;
