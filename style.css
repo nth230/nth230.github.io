@@ -5,6 +5,7 @@ html body{
 canvas{
   display:block;
   padding-bottom: 0;
+  pointer-events: none;
 }
 a{
   text-decoration: none;
