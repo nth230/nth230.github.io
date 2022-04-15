@@ -1,14 +1,12 @@
 html body{
   background: black;
-  cursor:url(cubeB.png),auto;
+  /*cursor:url(cubeB.png),auto;*/
 }
 a{
   text-decoration: none;
   color:#605052;
 }
 a:hover{
-/* cursor:url(arrowg2.png),auto; */
-/* color: #ddcfb0; */
 color: white;
 opacity: .65;
 }
@@ -47,7 +45,7 @@ img {
     filter: none;
       -webkit-filter: grayscale(0);
       -webkit-transform: scale(1.5);
-        cursor:url(cube.png),auto;
+        /*cursor:url(cube.png),auto;*/
     }
 .last{
   text-align: center;
