@@ -6,6 +6,17 @@ canvas{
   display:block;
   padding-bottom: 0;
 }
+.headline{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-bottom: 1px white solid;
+}
 a{
   text-decoration: none;
   color:#605052;
