@@ -1,7 +1,7 @@
 ArrayList<Dot> dots;
 
 void setup() {
-  size(1200, 200);
+  size(1440, 200);
 
   dots = new ArrayList<Dot>();
   for (int i = 0; i < 50; ++i) {
