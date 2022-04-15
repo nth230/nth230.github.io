@@ -53,7 +53,7 @@ class Dot {
   }
 
   void render() { 
-    this.canvas.fill(255);
+    this.canvas.fill(255,0,0);
     delay(1);
     this.canvas.ellipse(x, y, r, r);
   }
