@@ -1,11 +1,14 @@
+
+//create Array of my drawn Dot Objects
 ArrayList<Dot> dots;
 
 void setup() {
   size(1440, 200);
+  smooth();
 
   dots = new ArrayList<Dot>();
   for (int i = 0; i < 50; ++i) {
-    dots.add(new Dot(random(width), random(height), 5));
+    dots.add(new Dot(this, random(width), random(height), 10));
   }
 }
 
@@ -37,8 +40,10 @@ void connect() {
 class Dot {
   float x, y, r;
   float seedX, seedY;
+  private PApplet canvas;
 
-  Dot(float _x, float _y, float _r) {
+  Dot(PApplet canvas, float _x, float _y, float _r) {
+    this.canvas = canvas;
     x = _x;
     y = _y;
     r = _r;
@@ -48,9 +53,9 @@ class Dot {
   }
 
   void render() { 
-    fill(255);
+    this.canvas.fill(255);
     delay(1);
-    ellipse(x, y, r, r);
+    this.canvas.ellipse(x, y, r, r);
   }
 
   void move() {
