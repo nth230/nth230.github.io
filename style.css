@@ -14,14 +14,12 @@ canvas{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 .headline{
-    width: 100%;
+    width: 50%;
     position: relative;
     text-align: center;
     font-size: 1.3em;
     padding-top: 5%;
     padding-bottom: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
     margin-top: 0%;
     margin-bottom: 0%;
     border-bottom: 1px white solid;
