@@ -49,7 +49,6 @@ class Dot {
 
   void render() { 
     fill(255);
-    delay(1);
     ellipse(x, y, r, r);
   }
 
