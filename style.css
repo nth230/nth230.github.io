@@ -17,9 +17,8 @@ canvas{
     width: 50%;
     margin: auto;
     text-align: center;
-    font-size: 1.3em;
-    padding-top: 5%;
-    padding-bottom: 2%;
+    font-size: 5em;
+    padding: 1em;
     border-bottom: 1px white solid;
 }
 .splittingline{
