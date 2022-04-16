@@ -17,20 +17,23 @@ canvas{
     width: 50%;
     margin: auto;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     padding: 1em;
     border-bottom: 1px white solid;
+    font-family: 'Overpass Mono', monospace;
 }
 .splittingline{
   padding: 0;
   margin: 0;
 }
 a{
+  font-family: 'Overpass Mono', monospace;
+  font-size: 4em;
   text-decoration: none;
-  color:#605052;
+  color: white;
 }
 a:hover{
-color: white;
+color: #605052;
 opacity: .65;
 }
 header{
