@@ -16,7 +16,7 @@ canvas{
 .headline1{
   list-style-type: none;
   width: 33%
-  display: inline;
+  display: block;
   float: left;
     margin: auto;
     text-align:left;
@@ -28,7 +28,7 @@ canvas{
 .headline2{
   list-style-type: none;
   width: 33%
-  display: inline;
+  display: block;
   float: none;
     margin: auto;
     text-align:left;
@@ -40,8 +40,8 @@ canvas{
 .headline3{
   list-style-type: none;
   width: 33%
-  display: inline;
-  float: right;
+  display: block;
+  float: none;
     margin: auto;
     text-align:right;
     /*font-size: 1.3em;*/
