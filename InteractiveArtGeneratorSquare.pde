@@ -5,7 +5,7 @@ void setup() {
 
   dots = new ArrayList<Dot>();
   for (int i = 0; i < 50; ++i) {
-    dots.add(new Dot(random(width), random(height), 5, 5));
+    dots.add(new Dot(random(width), random(height), 8, 8));
   }
 }
 
@@ -26,7 +26,7 @@ void connect() {
       if (count<=5)
       {
         if (dist(dots.get(i).x, dots.get(i).y, dots.get(j).x, dots.get(j).y) < 100
-          && dist(dots.get(i).x, dots.get(i).y, mouseX, mouseY) < 15) {
+          && dist(dots.get(i).x, dots.get(i).y, mouseX, mouseY) < 24) {
           line(dots.get(i).x, dots.get(i).y, dots.get(j).x, dots.get(j).y);
           count ++;
         }
