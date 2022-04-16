@@ -15,8 +15,7 @@ canvas{
 }
 .headline1{
   list-style-type: none;
-  width: 33%
-  display: block;
+  display: inline-block;
   float: left;
     margin: auto;
     text-align:left;
@@ -27,8 +26,7 @@ canvas{
 }
 .headline2{
   list-style-type: none;
-  width: 33%
-  display: block;
+  display: inline-block;
   float: none;
     margin: auto;
     text-align:left;
@@ -39,8 +37,7 @@ canvas{
 }
 .headline3{
   list-style-type: none;
-  width: 33%
-  display: block;
+  display: inline-block;
   float: none;
     margin: auto;
     text-align:right;
