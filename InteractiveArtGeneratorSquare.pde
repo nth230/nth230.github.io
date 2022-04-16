@@ -50,7 +50,6 @@ class Dot {
 
   void render() { 
     fill(255);
-    delay(1);
     rect(x, y, x1, y1);
   }
 
