@@ -14,6 +14,7 @@ canvas{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 .headline1{
+  display: inline;
     width: 33%;
     margin: auto;
     text-align:left;
@@ -23,6 +24,7 @@ canvas{
     font-family: 'Overpass Mono', monospace;
 }
 .headline2{
+  display: inline;
     width: 33%;
     margin: auto;
     text-align:left;
@@ -31,6 +33,17 @@ canvas{
     border-bottom: 1px white solid;
     font-family: 'Overpass Mono', monospace;
 }
+.headline3{
+  display: inline;
+    width: 33%;
+    margin: auto;
+    text-align:left;
+    /*font-size: 1.3em;*/
+    padding: 1em;
+    border-bottom: 1px white solid;
+    font-family: 'Overpass Mono', monospace;
+}
+
 .splittingline{
   padding: 0;
   margin: 0;
@@ -59,7 +72,7 @@ header{
     margin: 0;
     padding: 0;
     display: inline;
-    /* float:left; 
+    /* float:left;
     text-align: center;
     outline: 1px solid white;
 */
