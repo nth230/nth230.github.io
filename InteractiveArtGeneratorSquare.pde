@@ -23,7 +23,7 @@ void connect() {
   int count =0;
   for (int i = 0; i < dots.size(); ++i) {
     for (int j = 0; j < dots.size(); ++j) {
-      if (count<=5)
+      if (count<=10)
       {
         if (dist(dots.get(i).x, dots.get(i).y, dots.get(j).x, dots.get(j).y) < 100
           && dist(dots.get(i).x, dots.get(i).y, mouseX, mouseY) < 24) {
