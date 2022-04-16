@@ -15,13 +15,11 @@ canvas{
 }
 .headline{
     width: 50%;
-    position: relative;
+    margin: auto;
     text-align: center;
     font-size: 1.3em;
     padding-top: 5%;
     padding-bottom: 2%;
-    margin-top: 0%;
-    margin-bottom: 0%;
     border-bottom: 1px white solid;
 }
 .splittingline{
