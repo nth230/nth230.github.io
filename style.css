@@ -13,11 +13,20 @@ canvas{
    user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
-.headline{
-    width: 50%;
+.headline1{
+    width: 33%;
     margin: auto;
-    text-align: center;
-    font-size: 1em;
+    text-align:left;
+    /*font-size: 1.3em;*/
+    padding: 1em;
+    border-bottom: 1px white solid;
+    font-family: 'Overpass Mono', monospace;
+}
+.headline2{
+    width: 33%;
+    margin: auto;
+    text-align:left;
+    /*font-size: 1.3em;*/
     padding: 1em;
     border-bottom: 1px white solid;
     font-family: 'Overpass Mono', monospace;
@@ -28,7 +37,7 @@ canvas{
 }
 a{
   font-family: 'Overpass Mono', monospace;
-  font-size: 1.2em;
+  font-size: 1.7em;
   text-decoration: none;
   color: white;
 }
@@ -44,17 +53,16 @@ header{
   padding-top: .5em;
 }
 
-ul {
+/*ul {
   font-size: 1.5em;
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline;
-    /* float:left; */
+    /* float:left; 
     text-align: center;
     outline: 1px solid white;
-
-}
+*/
 p{
   color:   color:#605052;
   font-size: 1em;
