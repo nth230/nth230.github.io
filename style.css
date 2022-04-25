@@ -13,6 +13,9 @@ canvas{
    user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+.header{
+  border:none;
+}
 .headline1{
   list-style-type: none;
   display: inline-block;
