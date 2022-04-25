@@ -13,7 +13,7 @@ canvas{
    user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
-.header{
+#header{
   border:none;
 }
 .headline1{
