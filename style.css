@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: 'opendyslexicbold';
-    src: url('../../nth230.github.io/opendyslexic-bold-webfont.woff2') format('woff2'),
-         url('../../nth230.github.io/opendyslexic-bold-webfont.woff') format('woff');
+    src: url('../nth230.github.io/opendyslexic-bold-webfont.woff2') format('woff2'),
+         url('../nth230.github.io/opendyslexic-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,20 +15,27 @@
 
 @font-face {
     font-family: 'opendyslexicbold_italic';
-    src: url('../../nth230.github.io/opendyslexic-bolditalic-webfont.woff2') format('woff2'),
-         url('../../nth230.github.io/opendyslexic-bolditalic-webfont.woff') format('woff');
+    src: url('../nth230.github.io/opendyslexic-bolditalic-webfont.woff2') format('woff2'),
+         url('../nth230.github.io/opendyslexic-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opendyslexicregular';
+    src: url('../nth230.github.io/opendyslexic-regular-webfont.woff2') format('woff2'),
+         url('../nth230.github.io/opendyslexic-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 
-
-
 @font-face {
     font-family: 'opendyslexicitalic';
-    src: url('../../nth230.github.io/opendyslexic-italic-webfont.woff2') format('woff2'),
-         url('../../nth230.github.io/opendyslexic-italic-webfont.woff') format('woff');
+    src: url('../nth230.github.io/opendyslexic-italic-webfont.woff2') format('woff2'),
+         url('../nth230.github.io/opendyslexic-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
