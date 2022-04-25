@@ -70,7 +70,7 @@ td{
   text-align: center;
 }
 .dysVersion{
-  
+  color:black;
 }
 .logoNTH{
   width:20%;
@@ -114,9 +114,7 @@ td{
   margin: 0;
 }
 a{
-  font-size: 1.7em;
   text-decoration: none;
-  color: white;
 }
 a:hover{
 color: #605052;
