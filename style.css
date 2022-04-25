@@ -16,6 +16,9 @@ canvas{
 #header1{
   border:none;
 }
+tr{
+  text-align: center;
+}
 td{
   text-align: center;
 }
