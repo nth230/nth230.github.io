@@ -16,10 +16,11 @@ canvas{
 #header1{
   border:none;
 }
-#myLogo{
+.NTH{
   text-align: center;
-  width: .5%;
-  height: .5%;
+}
+.logoNTH{
+  width:20%;
 }
 .headline1{
   list-style-type: none;
