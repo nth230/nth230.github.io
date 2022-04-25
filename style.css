@@ -2,8 +2,7 @@
 
 @font-face {
     font-family: 'opendyslexicbold';
-    src: url('fonts/opendyslexic-bold-webfont.woff2') format('woff2'),
-         url('fonts/opendyslexic-bold-webfont.woff') format('woff');
+    src: url('fonts/OpenDyslexic-Bold.otf')
     font-weight: normal;
     font-style: normal;
 
@@ -11,8 +10,7 @@
 
 @font-face {
     font-family: 'opendyslexicbold_italic';
-    src: url('fonts/opendyslexic-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/opendyslexic-bolditalic-webfont.woff') format('woff');
+    src: url('fonts/OpenDyslexic-BoldItalic.otf');
     font-weight: normal;
     font-style: normal;
 
@@ -20,8 +18,7 @@
 
 @font-face {
     font-family: 'opendyslexicitalic';
-    src: url('fonts/opendyslexic-italic-webfont.woff2') format('woff2'),
-         url('fonts/opendyslexic-italic-webfont.woff') format('woff');
+    src: url('fonts/OpenDyslexic-Italic.otf');
     font-weight: normal;
     font-style: normal;
 
@@ -29,8 +26,7 @@
 
 @font-face {
     font-family: 'opendyslexicregular';
-    src: url('fonts/opendyslexic-regular-webfont.woff2') format('woff2'),
-         url('fonts/opendyslexic-regular-webfont.woff') format('woff');
+    src: url('fonts/OpenDyslexic-Regular');
     font-weight: normal;
     font-style: normal;
 
