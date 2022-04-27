@@ -151,7 +151,7 @@ p{
       -webkit-transition: all .8s ease-in-out;
     }
 
-    .NHlogo:hover {
+    img:hover + div {
       image-orientation:
     filter: none;
       -webkit-filter: grayscale(0);
