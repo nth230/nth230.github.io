@@ -50,6 +50,7 @@ class Dot {
 
   void render() { 
     fill(255);
+    rectMode(CENTER);
     rect(x, y, x1, y1);
   }
 
