@@ -117,7 +117,6 @@ td{
 }
 #VEM{
   opacity: 0.4;
-    filter: alpha(opacity=40); /* msie */
 }
 .imgVEM:hover{
   opacity: 1.0;
