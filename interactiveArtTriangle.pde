@@ -5,7 +5,7 @@ void setup() {
 
   dots = new ArrayList<Dot>();
   for (int i = 0; i < 50; ++i) {
-    dots.add(new Dot(random(width), random(height), 8, 8));
+    dots.add(new Dot(random(width), random(height), 12, 12));
   }
 }
 
