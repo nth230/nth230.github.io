@@ -5,7 +5,7 @@ void setup() {
 
   dots = new ArrayList<Dot>();
   for (int i = 0; i < 50; ++i) {
-    dots.add(new Dot(random(width), random(height), 8, 8));
+    dots.add(new Dot(random(width), random(height), 12, 12));
   }
 }
 
@@ -50,7 +50,7 @@ class Dot {
 
   void render() { 
     fill(255);
-    triangle(x, y, x+8, y, x, y+8);
+    arc(x, y, x1, y1, radians(0),radians(180));
   }
 
   void move() {
